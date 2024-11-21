@@ -1,0 +1,245 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.nav1{
+    background-color: black;
+    height: 50px;
+    color: white;
+}
+
+.h1{
+    align-items: center;
+    text-align: center;
+    transition:white 0.3s ease;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.h1:hover {
+    color:rgb(87, 183, 243); 
+}
+
+.logo{
+    width: 20%;
+}
+.nav2{
+    background-color: white;
+      /* position: sticky;
+    top: 0%; */
+}
+.li{
+    font-size: large;
+    font-weight: bold;
+    transition:white 0.3s ease;
+   
+}
+.li:hover{
+    color:rgb(87, 183, 243); 
+}
+.ul{
+    justify-content: space-evenly;
+    
+}
+.li {
+    padding: 10px 40px; 
+}
+.li:not(:last-child) {
+    border-right: 2px solid #ccc;
+}
+
+ .img2{
+    height: 450px;
+    background-image: url(./images/premium_photo-1664474834472-6c7d1e3198e2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+ }
+.wel{
+    margin-top: 320px;
+ font-weight: bolder;
+  color: black;
+  text-align: center;
+  transition:white 0.3s ease;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  letter-spacing: 5px;
+}
+.wel:hover{
+    color:rgb(87, 183, 243); 
+}
+.hom{
+    font-weight: bolder;
+     color: black;
+     text-align: center;
+     transition:white 0.3s ease;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     
+   }
+.hom:hover{
+       color:rgb(87, 183, 243); 
+   }
+a{
+    text-decoration: none;
+   }
+.port{
+    font-weight: bolder;
+     color: black;
+     text-align: center;
+     transition:white 0.3s ease;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     
+   }
+.port:hover{
+       color:rgb(87, 183, 243); 
+   }
+.wel2{
+    text-align: center;
+}
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; 
+  }
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; 
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .flip-card-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+  }
+.h3{
+    font-size: small;
+    font-weight: bold;
+    transition:white 0.3s ease;
+}
+.h3:hover{
+    color:rgb(87, 183, 243); 
+}
+.ee{
+   
+}
+  .main1{
+    display: flex;
+ align-items: center;
+ justify-content: center;
+ box-sizing: border-box;
+  }
+.card{
+    /* margin-left: 5%; */
+    margin-bottom: 5%;
+    justify-content: center;
+}
+.card1{
+    box-shadow: 2px 2px 20px black;
+}
+.button{
+    width: 15%;
+    height: 50px;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    transition:white 0.3s ease;
+}
+.button:hover{
+    color:rgb(87, 183, 243); 
+}
+.bg-gray{
+    background-color: rgba(128, 128, 128, 0.596);
+}
+.input{
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    height: 50px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.button1{
+    background-color:rgb(87, 183, 243) ;
+    color: white;
+    width: 80%;
+    height: 50px;
+    border-radius: 10px;
+}
+.logo2{
+    width: 65%;
+}
+.i{
+    list-style-type: none;
+    transition:white 0.3s ease;
+}
+.icons{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+}
+.i:hover{
+    color:rgb(87, 183, 243); 
+}
+.p{
+    transition:white 0.3s ease;
+    text-align: justify;
+}
+.p:hover{
+    color:rgb(87, 183, 243); 
+}
+i{
+    font-size: larger;
+    padding-right: 15px;
+    transition:white 0.3s ease;
+}
+i:hover{
+    color:rgb(87, 183, 243); 
+}
+.design1{
+    padding-top: 15px;
+}
+.footer{
+
+background-image: url(./images/istockphoto-636609180-612x612.jpg);
+background-size: cover;
+overflow: hidden;
+    width: 100%;
+}
+.footer1{
+    background-color: black;
+    opacity: 0.9;
+}
+.ff{
+    display: flex;
+    justify-content: center;
+}
+.ss{
+    margin: 22px auto;
+}
+.down{
+    font-size: large;
+    font-weight: bolder;
+}
